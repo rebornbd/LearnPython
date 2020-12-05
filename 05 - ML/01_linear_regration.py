@@ -1,5 +1,12 @@
 
 def linearRegration(xi, yi, fx):
+    '''
+    y = b + mx
+
+    m = Σ[(x – x̄)(y -  ȳ)] / Σ[(x – x̄)2]
+    b =  ȳ - mx̄
+    '''
+    
     X = Y = 0
     N = len(xi)
 
