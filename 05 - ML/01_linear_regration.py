@@ -77,12 +77,12 @@ def rsquared(xi, yi):
 def main():
 
     # pizza size (inch)
-    # xi = [6, 8, 12, 14, 18]
-    xi = [1, 2, 3, 4, 5]
+    xi = [6, 8, 12, 14, 18]
+    # xi = [1, 2, 3, 4, 5]
 
     # pizza price (tk)
-    # yi = [350, 775, 1150, 1395, 1675]
-    yi = [1, 20, -30, 40, -5]
+    yi = [350, 775, 1150, 1395, 1675]
+    #yi = [1, 20, -30, 40, -5]
 
     # if pizza size is 17, find prize?
     x = 17
